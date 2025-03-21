@@ -94,7 +94,7 @@
         <div class="col-12 col-lg-6">
             <div class="card border-secondary mb-3">
                 <a class="text-decoration-none" rel="nofollow" href="https://www.aircon.panasonic.eu/ES_es/ranges/aquarea/">
-                    <img src="/wp-content/themes/climazona/assets/img/Publicidad/publicidad-panasonic-1.gif" class="card-img-top" alt="Publicidad">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Publicidad/publicidad-panasonic-1.gif" class="card-img-top" alt="Publicidad">
                     <div class="card-footer py-0"><small class="text-muted"><i class="bi bi-badge-ad"></i> Publicidad</small></div>
                 </a>
             </div>

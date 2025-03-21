@@ -208,11 +208,11 @@
                         <div class="col-12 col-lg-6">
                             <div class="footer-payments text-center text-xl-end mt-3 mt-lg-0">
                                 <?php if (isset($current_site_name) && $current_site_name != "Tienda del Hostelero") { ?>
-                                    <img width="50" height="25" src="/wp-content/themes/climazona/assets/img/payments/visa.webp" alt="Método de pago Visa" class="img-fluid border rounded-1"/>
-                                    <img width="50" height="25" src="/wp-content/themes/climazona/assets/img/payments/mastercard.webp" alt="Método de pago Mastercard" class="img-fluid border rounded-1"/>
-                                    <img width="50" height="25" src="/wp-content/themes/climazona/assets/img/payments/sequra.webp" alt="Método de pago Sequra" class="img-fluid border rounded-1"/>
+                                    <img width="50" height="25" src="<?php echo get_template_directory_uri(); ?>/assets/img/payments/visa.webp" alt="Método de pago Visa" class="img-fluid border rounded-1"/>
+                                    <img width="50" height="25" src="<?php echo get_template_directory_uri(); ?>/assets/img/payments/mastercard.webp" alt="Método de pago Mastercard" class="img-fluid border rounded-1"/>
+                                    <img width="50" height="25" src="<?php echo get_template_directory_uri(); ?>/assets/img/payments/sequra.webp" alt="Método de pago Sequra" class="img-fluid border rounded-1"/>
                                 <?php } ?>
-                                <img width="50" height="25" src="/wp-content/themes/climazona/assets/img/payments/sepa.webp" alt="Método de pago SEPA" class="img-fluid border rounded-1"/>
+                                <img width="50" height="25" src="<?php echo get_template_directory_uri(); ?>/assets/img/payments/sepa.webp" alt="Método de pago SEPA" class="img-fluid border rounded-1"/>
                             </div>
                         </div>
                     </div>

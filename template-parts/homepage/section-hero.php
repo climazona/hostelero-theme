@@ -2,7 +2,7 @@
     <?php $image = get_field('imagen1'); ?>
     <div class="container-fluid position-relative px-0">
         <div class="overflow-hidden position-absolute w-100 bottom-0">
-            <img draggable="false" class="imagen-home position-relative" width="440" height="465" alt="<?php echo wp_title(); ?>" src="/wp-content/themes/climazona/assets/img/climazona-home.webp">
+            <img draggable="false" class="imagen-home position-relative" width="440" height="465" alt="<?php echo wp_title(); ?>" src="<?php echo get_template_directory_uri(); ?>/assets/img/climazona-home.webp">
         </div>
         <div class="container">
             <div class="row">

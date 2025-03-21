@@ -41,7 +41,7 @@
     <div class="row">
         <div class="col-12 col-lg-6">
             <div class="card mb-3">
-                <img src="/wp-content/themes/climazona/assets/img/banners/banner-promo-2.gif" class="card-img-top" alt="Panasonic Aquarea">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-promo-2.gif" class="card-img-top" alt="Panasonic Aquarea">
                 <div class="card-footer py-0 px-2 d-flex justify-content-between align-items-center">
                     <i class="bi bi-badge-ad me-2"></i>
                     <small class="text-dark">

@@ -46,7 +46,7 @@
                         echo '
                         <div class="p-2">
                             <a href="https://' . $blog . '.com">
-                                <img src="/wp-content/themes/climazona/assets/img/logos/Isotipo-png-color-' . $blog . '.png" alt="Logotipo" class="border rounded-3 img-fluid" width="40" height="40">
+                                <img src="'. get_template_directory_uri() .'/assets/img/logos/Isotipo-png-color-' . $blog . '.png" alt="Logotipo" class="border rounded-3 img-fluid" width="40" height="40">
                             </a>
                         </div>
                         ';

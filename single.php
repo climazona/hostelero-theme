@@ -40,7 +40,7 @@
             <div class="row my-3">
                 <div class="col-12">
                     <div class="card mb-3">
-                        <img src="https://tiendadelaire.com/wp-content/themes/climazona/assets/img/banners/banner-promo-1.webp" class="card-img-top" alt="Beretta">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-promo-1.webp" class="card-img-top" alt="Beretta">
                         <div class="card-footer py-0 px-2 d-flex justify-content-between align-items-center">
                             <i class="bi bi-badge-ad me-2"></i>
                             <small class="text-dark">
