@@ -1,0 +1,74 @@
+/* Tienda del Electro */
+
+/* utilities */
+a {
+    color: #dc2626;
+}
+a:hover {
+    color: #b91c1c;
+}
+.text-theme-primary {
+    color: #dc2626;
+}
+.text-theme-primary-dark {
+    color: #b91c1c;
+}
+.text-theme-secondary {
+    color: #334155;
+}
+.bg-theme-primary {
+    background-color: #dc2626;
+}
+.bg-theme-primary-light {
+    background-color: #fee2e2;
+}
+.bg-theme-secondary {
+    background-color: #f4f4f5;
+}
+.border-theme-primary {
+    border-color: #b91c1c;
+}
+.btn-outline-theme-primary {
+    color: #dc2626;
+    border-color: #b91c1c;
+}
+.btn-outline-theme-primary:hover{
+    color: #fff;
+    background-color: #b91c1c;
+    border-color: #b91c1c;
+}
+.btn-outline-theme-primary:focus{
+    box-shadow: 0 0 0 .25rem #b91c1c;
+}
+.acordeonInstalacion .accordion-button{
+    background-color:#f2f3f6!important;
+    border-radius:.3rem!important;
+}
+.acordeonInstalacion .accordion-button:not(.collapsed){
+    background-color:#f2f3f6;
+    box-shadow:none;
+}
+/*input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: auto;
+    max-width:130px;
+}*/
+/* homepage */
+.homepage-hero {
+    color: #334155;
+    background: #fee2e2;
+    background: linear-gradient(0deg, #dc2626 0%, #dc2626 30%, #fee2e2 30%);
+}

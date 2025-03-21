@@ -1,0 +1,74 @@
+/* Tienda del Hostelero */
+
+/* utilities */
+a {
+    color: #ea580c;
+}
+a:hover {
+    color: #c2410c;
+}
+.text-theme-primary {
+    color: #ea580c;
+}
+.text-theme-primary-dark {
+    color: #c2410c;
+}
+.text-theme-secondary {
+    color: #334155;
+}
+.bg-theme-primary {
+    background-color: #ea580c;
+}
+.bg-theme-primary-light {
+    background-color: #ffedd5;
+}
+.bg-theme-secondary {
+    background-color: #f4f4f5;
+}
+.border-theme-primary {
+    border-color: #ea580c;
+}
+.btn-outline-theme-primary {
+    color: #ea580c;
+    border-color: #ea580c;
+}
+.btn-outline-theme-primary:hover{
+    color: #fff;
+    background-color: #ea580c;
+    border-color: #ea580c;
+}
+.btn-outline-theme-primary:focus{
+    box-shadow: 0 0 0 .25rem #ea580c;
+}
+.acordeonInstalacion .accordion-button{
+    background-color:#f2f3f6!important;
+    border-radius:.3rem!important;
+}
+.acordeonInstalacion .accordion-button:not(.collapsed){
+    background-color:#f2f3f6;
+    box-shadow:none;
+}
+/*input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: auto;
+    max-width:130px;
+}*/
+/* homepage */
+.homepage-hero {
+    color: #334155;
+    background: #ffedd5;
+    background: linear-gradient(0deg, #ea580c 0%, #ea580c 30%, #ffedd5 30%);
+}

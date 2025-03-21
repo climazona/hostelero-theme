@@ -1,0 +1,74 @@
+/* Tienda del Aire */
+
+/* utilities */
+a {
+    color: #2563eb;
+}
+a:hover {
+    color: #1d4ed8;
+}
+.text-theme-primary {
+    color: #2563eb;
+}
+.text-theme-primary-dark {
+    color: #1d4ed8;
+}
+.text-theme-secondary {
+    color: #334155;
+}
+.bg-theme-primary {
+    background-color: #2563eb;
+}
+.bg-theme-primary-light {
+    background-color: #dbeafe;
+}
+.bg-theme-secondary {
+    background-color: #f4f4f5;
+}
+.border-theme-primary {
+    border-color: #1d4ed8;
+}
+.btn-outline-theme-primary {
+    color: #2563eb;
+    border-color: #1d4ed8;
+}
+.btn-outline-theme-primary:hover{
+    color: #fff;
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+.btn-outline-theme-primary:focus{
+    box-shadow: 0 0 0 .25rem #1d4ed8;
+}
+.acordeonInstalacion .accordion-button{
+    background-color:#f2f3f6!important;
+    border-radius:.3rem!important;
+}
+.acordeonInstalacion .accordion-button:not(.collapsed){
+    background-color:#f2f3f6;
+    box-shadow:none;
+}
+/*input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: auto;
+    max-width:130px;
+}*/
+/* homepage */
+.homepage-hero {
+    color: #334155;
+    background: #dbeafe;
+    background: linear-gradient(0deg, #2563eb 0%, #2563eb 30%, #dbeafe 30%);
+}

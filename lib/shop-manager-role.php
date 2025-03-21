@@ -1,0 +1,42 @@
+<?php
+$result = add_role(
+  'shop_manager',
+  __('Shop Manager'), // Más info: https://wordpress.org/support/article/roles-and-capabilities/
+  array(
+
+    $role = get_role('shop_manager'),
+    $role->add_cap('edit_posts'),
+    $role->add_cap('edit_pages'),
+    $role->remove_cap('import'),
+    $role->remove_cap('edit_theme_options'),
+    $role->remove_cap('list_users'),
+    $role->remove_cap('manage_woocommerce_orders'),
+    $role->remove_cap('view_woocommerce_reports'),
+    $role->remove_cap('manage_woocommerce'),
+    $role->remove_cap('edit_published_posts'),
+    $role->remove_cap('edit_published_pages'),
+    $role->remove_cap('delete_published_pages'),
+    $role->remove_cap('delete_published_posts'),
+    $role->remove_cap('edit_woocommerce_coupons'),
+    $role->remove_cap('edit_shop_coupons'),
+    $role->remove_cap('moderate_comments'),
+    $role->remove_cap('export'),
+    $role->remove_cap('edit_shop_order'),
+    $role->remove_cap('read_shop_order'),
+    $role->remove_cap('delete_shop_order'),
+    $role->remove_cap('edit_shop_orders'),
+    $role->remove_cap('edit_others_shop_orders'),
+    $role->remove_cap('publish_shop_orders'),
+    $role->remove_cap('read_private_shop_orders'),
+    $role->remove_cap('delete_shop_orders'),
+    $role->remove_cap('delete_private_shop_orders'),
+    $role->remove_cap('delete_published_shop_orders'),
+    $role->remove_cap('delete_others_shop_orders'),
+    $role->remove_cap('edit_private_shop_orders'),
+    $role->remove_cap('edit_published_shop_orders'),
+    $role->remove_cap('manage_shop_order_terms'),
+    $role->remove_cap('edit_shop_order_terms'),
+    $role->remove_cap('delete_shop_order_terms'),
+    $role->remove_cap('assign_shop_order_terms'),
+  )
+);
